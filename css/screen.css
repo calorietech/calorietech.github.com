@@ -1,0 +1,60 @@
+body {
+  background-color: #f6f6f6;
+  color: #333;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  margin: 10vw auto;
+  border: 1px solid transparent;
+  font-size: 10vw;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.company-name {
+  max-width: 960px;
+}
+
+.apps-we-made {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 auto 20vw auto;
+}
+
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  content: '\0020';
+  clear: both;
+  height: 0;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+@media only screen and (max-device-width: 600px) {
+.mobile-through {
+  display: block;
+  font-size: 4vw;
+  float: none;
+  text-align: center;
+}
+}
+
+.clean-btn {
+  text-decoration: none;
+  color: rgb(87,78,96);
+  padding 11px;
+}
